@@ -6,6 +6,9 @@ h = 0
 t = 0
 
 
+name = input('What is your name?\n')
+print('Hello', name, '!')
+
 for x in range(3):
     print('Tossing a coin...')
     y = random.randint(1,2)
