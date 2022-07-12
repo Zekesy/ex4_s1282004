@@ -17,3 +17,8 @@ for x in range(3):
         print('Tails')
         t+=1
 print('Heads:' , h , 'Tails:' , t)
+
+if h > t:
+     print('You won')
+else: 
+    print('You lost')
